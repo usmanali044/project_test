@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/op"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/rounds"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:elevation="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="C O D E"
+            android:textColor="@color/purple_200"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:elevation="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="Verifaction"
+            android:textColor="@color/purple_200"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:elevation="1dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:text="Enter one time password sent on +923005200200"
+            android:textColor="@color/purple_200"
+            android:textSize="12dp"
+
+            ></TextView>
+
+        <LinearLayout
+            android:id="@+id/optlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_otpNumber"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/opt1"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        <EditText
+            android:id="@+id/opt2"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        <EditText
+            android:id="@+id/opt3"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        <EditText
+            android:id="@+id/opt4"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        <EditText
+            android:id="@+id/opt5"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        <EditText
+            android:id="@+id/opt6"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:background="@drawable/otp_desiging"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="Labelfor" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/pasword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="60dp"
+            android:elevation="2dp"
+            android:text="Resend OTP : 00s"
+            android:textColor="@color/purple_500"
+            android:textSize="12dp"
+            ></TextView>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="verify code"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

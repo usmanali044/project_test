@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924793145579",
+    "firebase_url": "https://blind-assisting-system-default-rtdb.firebaseio.com",
+    "project_id": "blind-assisting-system",
+    "storage_bucket": "blind-assisting-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924793145579:android:0e467f9fd86f605c0416ae",
+        "android_client_info": {
+          "package_name": "com.example.blind_assisting_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924793145579-14mf478dgkvnojqtsf9eed20o71thbr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mpFcJJpHFeEs1riLXnpX3VJy6KiJAfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924793145579-14mf478dgkvnojqtsf9eed20o71thbr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

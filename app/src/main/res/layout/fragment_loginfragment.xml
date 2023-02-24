@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginfragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      app:layout_constraintStart_toStartOf="parent">
+    <TextView
+        android:id="@+id/log_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp"
+        android:text="Welcome Back!"
+        android:textColor="@color/purple_200"
+        android:textSize="23dp"
+        android:textStyle="bold|italic"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="330dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textfield"
+        android:elevation="10dp"
+        android:hint="Email"
+        android:textColor="@color/purple_200"
+        android:textSize="12dp"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+android:drawableLeft="@drawable/ic_baseline_email_24"
+        ></EditText>
+
+
+      <EditText
+    android:id="@+id/ed2"
+          android:layout_width="330dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="10dp"
+          android:background="@drawable/textfield"
+          android:drawableLeft="@drawable/ic_baseline_lock_24"
+          android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+          android:drawablePadding="10dp"
+          android:elevation="10dp"
+          android:hint="Password"
+          android:inputType="textPassword"
+          android:padding="15dp"
+          android:textColor="@color/purple_200"
+          android:textSize="12dp">
+
+
+      </EditText>
+
+      <TextView
+
+          android:id="@+id/log_rememberpasword"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="23dp"
+          android:layout_marginTop="0dp"
+          android:drawableLeft="@drawable/ic_baseline_check_box_outline_blank_24"
+          android:elevation="2dp"
+          android:padding="10dp"
+          android:text="Remember Password"
+          android:textColor="@color/purple_200"
+          android:textSize="12dp"
+
+          ></TextView>
+      <TextView
+          android:id="@+id/fpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="30dp"
+        android:elevation="2dp"
+        android:text="Forget Password?"
+        android:textColor="@color/teal_200"
+        android:textSize="10dp"
+        ></TextView>
+
+
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:elevation="5dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:text="Sign In"
+        android:textColor="@color/white"/>
+      <ImageView
+          android:id="@+id/fingerprint"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/ic_baseline_fingerprint_24"
+        android:layout_gravity="end"
+          android:layout_marginRight="50dp"
+          android:layout_marginTop="-51dp"
+          />
+
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:layout_marginTop="20dp"
+  android:gravity="center"
+  android:weightSum="12">
+    <View
+        android:layout_width="3dp"
+        android:layout_marginLeft="110dp"
+        android:layout_height="1dp"
+    android:layout_weight="5"
+        android:background="@color/purple_200"
+        ></View>
+  <TextView
+      android:id="@+id/or_open_with"
+      style="style/viewParent.headerText.NoMode"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="6"
+      android:text="Or sign in with"
+      android:textAlignment="center"
+      android:textColor="@color/purple_200"
+      android:textSize="13sp"
+      ></TextView>
+  <View
+      android:layout_width="3dp"
+      android:layout_height="1dp"
+      android:layout_weight="5"
+      android:layout_marginRight="110dp"
+      android:background="@color/purple_200"
+
+      ></View>
+
+</LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:gravity="center"
+
+          >
+
+          <ImageButton
+              android:id="@+id/log_fb_btn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+              android:background="@drawable/roundedgoog"
+              android:elevation="5dp"
+              android:padding="5dp"
+              android:src="@drawable/ic_icons8_facebook"></ImageButton>
+
+          <ImageButton
+              android:id="@+id/log_google_btn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="8dp"
+              android:background="@drawable/roundedgoog"
+              android:elevation="5dp"
+              android:padding="5dp"
+              android:src="@drawable/ic_icons8_google"></ImageButton>
+      </LinearLayout>
+  </LinearLayout>
+    </ScrollView>
+</FrameLayout>
